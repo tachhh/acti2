@@ -1,6 +1,6 @@
 def cal(score):
     res = sum(score) / len(score)
-    return f"{res:.2f}"  
+    return f"{res:.4f}"  
 
 def add_score(subject_score, subject, score):
     subject_score_dict = eval(subject_score) 
